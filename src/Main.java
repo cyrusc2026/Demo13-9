@@ -12,7 +12,7 @@ public class Main {
             Student temp = new Student(names[i],years[i],houses[i]);
             cisStudents.add(i,temp);
         }
-        System.out.println("Finished initialisation!");
+        System.out.println("Finished initialisation! ");
         bubbleSortNames(cisStudents);
         System.out.println("Finished sorting!");
         print(cisStudents);
